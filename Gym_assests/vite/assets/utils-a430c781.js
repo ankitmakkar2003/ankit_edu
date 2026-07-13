@@ -1,0 +1,2 @@
+import{h as t}from"./moment-02fedcb7.js";const a=o=>o?t(o).toDate():void 0,r=o=>o?t(o).format("YYYY-MM-DD"):void 0,e=()=>{const o=window.document.querySelector('meta[name="csrf-token"]');return o&&o.content},s=o=>fetch(`/verify_apple_pay_domain/${o.id}`,{headers:{"Content-Type":"application/json","X-CSRF-Token":e()},method:"POST",body:JSON.stringify({domain:window.location.host})}),i=({value:o})=>o||"-";export{a,r as d,i as f,e as g,s as v};
+//# sourceMappingURL=utils-a430c781.js.map

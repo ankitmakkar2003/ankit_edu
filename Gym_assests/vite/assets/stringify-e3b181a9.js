@@ -1,0 +1,2 @@
+var e=[];for(var s=0;s<256;++s)e.push((s+256).toString(16).slice(1));function u(t){var n=arguments.length>1&&arguments[1]!==void 0?arguments[1]:0;return(e[t[n+0]]+e[t[n+1]]+e[t[n+2]]+e[t[n+3]]+"-"+e[t[n+4]]+e[t[n+5]]+"-"+e[t[n+6]]+e[t[n+7]]+"-"+e[t[n+8]]+e[t[n+9]]+"-"+e[t[n+10]]+e[t[n+11]]+e[t[n+12]]+e[t[n+13]]+e[t[n+14]]+e[t[n+15]]).toLowerCase()}export{u};
+//# sourceMappingURL=stringify-e3b181a9.js.map

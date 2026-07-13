@@ -1,0 +1,2 @@
+import{g as o}from"./_commonjsHelpers-f17db62c.js";import{_ as i,a as c,b as p}from"./_stringToArray-05ced64a.js";import{t as n}from"./toString-75a62dd5.js";var u=i,_=c,m=p,v=n;function f(t){return function(r){r=v(r);var a=_(r)?m(r):void 0,e=a?a[0]:r.charAt(0),s=a?u(a,1).join(""):r.slice(1);return e[t]()+s}}var F=f,l=F,C=l("toUpperCase"),S=C;const A=o(S);export{A as _,S as u};
+//# sourceMappingURL=upperFirst-5ecd8280.js.map
